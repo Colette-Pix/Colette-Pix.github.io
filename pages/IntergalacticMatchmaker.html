@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Alien Dating Site -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+
+  <style>
+
+    h1 {
+      color: white;
+      font-size: 3rem;
+      text-align: center;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+      nav {
+        background-image: url("../images/space.jpg");
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      nav select {
+        background-color: #15da46;
+        color: rgb(0, 0, 0);
+        padding: 0.5rem;
+        border: none;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+        cursor: pointer;
+      }
+
+      nav select option {
+        background-color: #15da46;
+        color: rgb(0, 0, 0);
+
+      }
+    </style>
+  </style>
+
+  </head>
+  <body>
+
+    <nav>
+      <select onchange="location = this.value;">
+        <option value="IntergalacticMatchmaker.html">Home</option>
+        <option value="SETP.html">Search for Extraterrestrial Partners</option>
+        <option value="Profile.html">My Profile</option>
+      </select>
+    </nav>
+
+
+    
+<h1>🪐<span style="color: pink;">♥</span> Intergalactic Matchmaker<span style="color: pink;">♥</span>🪐
+</h1>
+    <div id="alienGrid" class="grid-container">
+    </div>
+    <script type="module" src="../js/alienCards.js">
+    </script>
+    <script type="module" src="../js/data3.js">
+    </script>
+    <blockquote class="quote">
+      <p>
+        "The universe is a pretty big place. If it's just us, seems like an awful
+        waste of space."
+      </p>
+      <p>—Carl Sagan</p>
+      <!--
+    <script>
+      window.addEventListener('beforeunload', function() {
+        var audio = document.querySelector('audio');
+        audio.pause();
+        audio.currentTime = 0;
+      });
+ -->
+    </script>
+     <audio src="../music/spacemusic.mp3" autoplay loop></audio>   
+     <footer>
+      <p>© 2024 Colette Bellard </p>
+     </footer>
+  </body>
+</html>
+
