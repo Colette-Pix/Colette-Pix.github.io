@@ -11,45 +11,6 @@ body {
   font-family: Impact, comic sans, 'Arial Narrow Bold', sans-serif,'comic sans ms', 'comic sans', cursive;
 }
 
-  
-input[type="text"],
-input[type="number"],
-select {
-  background-color: #15da46;
-  color: rgb(0, 0, 0);
-  padding: 0.5rem;
-  border: none;
-  border-radius: 0.25rem;
-  font-size: 1rem;
-  cursor: pointer;
-}
-#searchResultsContainer {
-  display: table;
-  width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#searchResultsContainer table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-#searchResultsContainer th,
-#searchResultsContainer td {
-  padding: 1rem;
-  text-align: left;
-  border-bottom: 1px solid #ccc;
-}
-
-#searchResultsContainer th {
-  background-color: #15da46;
-  font-weight: bold;
-  color:black
-}
-
 
 
 #alienGrid {
@@ -71,14 +32,14 @@ select {
     padding: 55px;
     border-radius: 330px;
     transition: all 0.3s ease;
-    box-shadow: inset 0 0 10px 5px #15da46,
+    box-shadow: inset 0 0 10px 5px rgba(130, 228, 12, 0.9),
     inset -5px -5px 10px blue;
     color:white
   }
 
   .select{
     background-image: url("../images/space.jpg");
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(130, 228, 12, 0.9);
     border-radius: 330px;
     padding: 10px;
     margin: 10px;
@@ -88,7 +49,7 @@ select {
   }
    .card:hover {
     scale: 1.1;
-    box-shadow: 0 0 20px 5px rgba(7, 204, 50, 0.9);
+    box-shadow: 0 0 20px 5px rgba(130, 228, 12, 0.9);
     filter: invert(100%);
 
   } 
@@ -108,7 +69,7 @@ select {
   }
 
   .quote {
-    color:chartreuse;
+    color:rgba(130, 228, 12, 0.9);
     font-size: 1.5rem;
     font-style: italic;
     margin-top: 1rem;
@@ -117,7 +78,29 @@ select {
     font-family: Impact, comic sans, 'Arial Narrow Bold', sans-serif,'comic sans ms', 'comic sans', cursive;;
   }
 
+  nav {
+    background-image: url("../images/space.jpg");
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  nav select {
+    background-color: rgba(130, 228, 12, 0.9);
+    color: rgb(0, 0, 0);
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  nav select option {
+    background-color: rgba(130, 228, 12, 0.9);
+    color: rgb(0, 0, 0);
+
+  }
 
   
 
